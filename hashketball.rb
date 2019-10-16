@@ -166,8 +166,7 @@ def player_stats(player_choice)
       game_hash[place][attribute].each do |player|
         next unless player[:player_name] == player_choice
 
-        new_hash = player.delete_if do |k, _v|
-          k == :player_name
+
         end
       end
     end
