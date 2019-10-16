@@ -1,4 +1,6 @@
 # Write your code here!
+require 'pry'
+
 def game_hash
   {
     home:{team_name:'Brooklyn Nets',
@@ -99,6 +101,6 @@ def game_hash
                  assists:12,
                  steals:7,
                  blocks:5,
-                 slam_dunks:12},                                  
+                 slam_dunks:12},
          ]
   }
